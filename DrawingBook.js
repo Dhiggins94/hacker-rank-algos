@@ -8,7 +8,7 @@ function pageCount(n, p) {
 let pageTurn = Math.floor(n/2)
 let numOfPages = Math.floor(p/2)
 
-let newBook = pageTurn - numOfPages
+// let newBook = pageTurn - numOfPages
 let bookMin = Math.min(numOfPages, pageTurn)
 return bookMin
 }

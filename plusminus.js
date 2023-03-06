@@ -7,3 +7,6 @@ function plusMinus(arr) {
   let zeroArr = arr.filter(z => z === 0).length / arr.length
   console.log(zeroArr.toFixed(6))  
 }
+
+// The toFixed() method formats a number using fixed-point notation.
+
