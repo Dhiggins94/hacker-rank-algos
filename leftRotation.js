@@ -11,6 +11,7 @@ function rotateLeft(d, arr) {
   for (let i = 0; i < d; i++) {
     // we use .shift() to remove the first element in the array and return a new one under the value of firstItem
     const firstItem = rotatedArr.shift();
+    // then we use .push( ) and add the firstItem inside of the rotatedArr
     rotatedArr.push(firstItem);
   }
   // lastly we return the rotated array.
